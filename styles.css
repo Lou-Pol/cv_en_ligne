@@ -21,7 +21,7 @@
     header, footer{
     width: 100%;
     padding: 20px 0px;
-    background: url("https://campuslandes.com/") #4f4f4f;
+    background: url("https://campuslandes.com/") #474355;
     box-shadow: 0px 0px 15px #333;
     }
     header{
@@ -34,6 +34,7 @@
     width: 90%;
     margin: 0 auto;
     text-align: center;
+    text-shadow: 2px 2px 10px rgb(113, 113, 176);
     }
     footer{
     border-top: 2px solid #fff;
