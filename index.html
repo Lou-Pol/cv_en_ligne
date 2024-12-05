@@ -3,78 +3,186 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Votre Nom - CV</title>
+    <title>CV de Lou Pol</title>
     <link rel="stylesheet" href="styles.css">
  </head>
  <body>
     <header>
-        <h1>Pol Lou</h1>
-        <p>Développeur Web Junior</p>
+        <h1>Lou Pol</h1>
     </header>
-    <main>
-        <!-- Profil -->
-        <section>
-            <h2>Profil</h2>
-            <p>Développeur passionné, spécialisé dans les technologies web back-end.</p>
-        </section>
-        <!-- Expériences Professionnelles -->
-        <section>
-            <h2>Expériences Professionnelles</h2>
-            <ul>
-                <li>
-                    <h3>Développeur Web</h3>
-                    <p>Entreprise ABC - Janvier 2022 à Présent</p>
-                    <p>Développement d’applications web en JavaScript et React.
- </p>
-                </li>
-                <li>
-                    <h3>Stagiaire Développement</h3>
-                    <p>Entreprise Netiful - 18 Novembre au 29 Novembre 2024</p>
-                    <p>Création d'un scraper</p>
-                </li>
-            </ul>
-        </section>
-        <!-- Formation -->
-        <section>
-            <h2>Formation</h2>
-            <ul>
-                <li>
-                    <h3>Baccalauréat général spécialité Mathématiques et Nsi, option euro espagnol et maths expertes</h3>
-                    <p>Lycée Victor Duruy</p>
-                </li>
-            </ul>
-        </section>
-        <!-- Compétences -->
-        <section>
-            <h2>Compétences</h2>
-            <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>Python, SQL</li>
-                <li>Git, GitHub</li>
-            </ul>
-        </section>
-        <!-- Projets -->
-        <section>
-            <h2>Projets</h2>
-            <ul>
-                <li>
-                    <h3>Space invader</h3>
-                    <p>Création d’un jeu space invader en Python sur Processing
- </p>
-                </li>
-                <li>
-                    <h3>Portfolio</h3>
-                    <p>Développement d’un portfolio interactif avec HTML, CSS et 
-JavaScript.</p>
-                </li>
-            </ul>
-        </section>
-        <!-- Contact -->
-        <section>
-            <h2>Contact</h2>
-            <p>Email : votre.email@example.com</p>
-            <p>Téléphone : 0123456789</p>
-        </section>
-    </main>
- </body>
+    <section>
+        <div class="photo-profil">
+            <img src="./assets/images/popol.jpg" alt="Ma photo de profil">
+        </div>
+        <div class="presentation">
+            <h2>Qui suis-je ?</h2>
+            <p>Futur diplômé d'un Baqchelor CSI</p>
+            <a href="#" download>Télécharger mon CV</a>
+        </div>
+        <div class="contact">
+            <h2>Informations de contact</h2>
+            <div class="contact-flex">
+                <p>Nom :
+                </p>
+                <p>Lou Pol</p>
+            </div>
+            <div class="contact-flex">
+                <p>Adresse :
+                </p>
+                <p>236 Av. de Canenx, 40000 Mont-de-Marsan</p>
+            </div>
+            <div class="contact-flex">
+                <p>Téléphone :</p>
+                <p>06 11 39 01 46</p>
+            </div>
+            <div class="contact-flex">
+                <p>Mail :
+                </p>
+                <p>
+                    <a href="mailto:">lou.pol2006@gmail.com</a>
+                </p>
+            </div>
+            <div class="contact-flex">
+                <p>Permis :</p>
+                <p>B</p>
+            </div>
+            <div class="social">
+                <a href="#"><img src="./assets/images/fb.png" alt="Logo Fb">
+    </a>
+                <a href="#"><img src="./assets/images/tw.png" alt="Logo Tw">
+    </a>
+                <a href="#"><img src="./assets/images/lk.png" alt="Logo Lk">
+    </a>
+                <a href="#"><img src="./assets/images/yt.png" alt="Logo Yt">
+    </a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Expériences professionnelles</h2>
+        <div class="exp">
+            <div class="exp-logo">
+                <a href="#"><img src="./assets/images/Kiloutou.jpg" alt="Logo 
+    de Kiloutou"></a>
+            </div>
+            <div class="exp-info">
+                <h3>Alternance chez Kiloutou</h3>
+                <h4>Kiloutou</h4>
+                <h4>Pas de dates</h4>
+            </div>
+            <div class="exp-desc">
+                <p>Création sites.</p>
+            </div>
+        </div>
+        <div class="exp">
+            <div class="exp-logo">
+                <a href="#"><img src="assets/images/prestashop.png" alt="Logo 
+    de PrestaShop"></a>
+            </div>
+            <div class="exp-info">
+                <h3>Stage developpement</h3>
+                <h4>Netiful</h4>
+                <h4>18 novembre - 29 novembre 2024</h4>
+            </div>
+            <div class="exp-desc">
+                <p>Réalisation d'un scraper</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Formation</h2>
+        <div class="exp">
+            <div class="exp-logo">
+                <a href="#"><img src="assets/images/esnl-logo.webp" alt="Logo 
+    de ESNL"></a>
+            </div>
+            <div class="exp-info">
+                <h3>Baccalauréat général avec spécialtié maths et nsi, option euro espagnol et maths expertes</h3>
+                <h4>oui </h4>
+            </div>
+            <div class="exp-desc">
+                <p>description</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Compétences</h2>
+        <h3 class="h3gauche">Professionnelles</h3>
+        <div class="comp-pro">
+            <p>HTML / CSS</p>
+            <div class="conteneur-barre-pro">
+                <span class="barre c60"></span>
+            </div>
+        </div>
+        <div class="comp-pro">
+            <p>MySQL</p>
+            <div class="conteneur-barre-pro">
+                <span class="barre c40"></span>
+            </div>
+        </div>
+        <div class="comp-pro">
+            <p>Python</p>
+            <div class="conteneur-barre-pro">
+                <span class="barre c85"></span>
+            </div>
+        </div>
+        <div class="comp-pro">
+            <p>Réseaux</p>
+            <div class="conteneur-barre-pro">
+                <span class="barre c100"></span>
+            </div>
+        </div>
+        <h3 class="h3gauche">Personnelles</h3>
+        <div class="comp-perso">
+            <p>Créativité</p>
+            <p>90%</p>
+            <div class="conteneur-barre-perso">
+                <span class="barre c90"></span>
+            </div>
+        </div>
+        <div class="comp-perso">
+            <p>Adaptation</p>
+            <p>85%</p>
+            <div class="conteneur-barre-perso">
+                <span class="barre c85"></span>
+            </div>
+        </div>
+        <div class="comp-perso">
+            <p>Sérieux</p>
+            <p>95%</p>
+            <div class="conteneur-barre-perso">
+                <span class="barre c95"></span>
+            </div>
+        </div>
+        <div class="comp-perso">
+            <p>Leadership</p>
+            <p>95%</p>
+        </div>
+    </section>
+    <section>
+        <h2>Centres d'intérêt</h2>
+        <figure class="interet">
+            <img src="./assets/images/poireaux.jpg" alt="Poireaux">
+            <figcaption>Poireaux</figcaption>
+        </figure>
+        <figure class="interet">
+            <img src="./assets/images/monique.png" alt="Monique">
+            <figcaption>Monique</figcaption>
+        </figure>
+        <figure class="interet">
+            <img src="./assets/images/gaming.jpg" alt="Gaming">
+            <figcaption>Jeux vidéos</figcaption>
+        </figure>
+        <figure class="interet">
+            <img src="./assets/images/livre.jpg" alt="Littérature">
+            <figcaption>Littérature</figcaption>
+        </figure>
+    </section>
+    <footer>
+        <p>
+            <a href="https://esnl.campuslandes.com">BTS SIO</a>
+            2022</p>
+        <p>Reproduction à des fins commerciales interdite.</p>
+    </footer>
+</body>
  </html>
