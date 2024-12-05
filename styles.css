@@ -47,6 +47,7 @@ header h1 {
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
     font-weight: 700;
     color: #e0e0e0;
+    text-align: center;
 }
 header img {
     width: 50px;
@@ -112,35 +113,21 @@ section > div {
 }
 
 /* Boutons */
-/* Section Présentation */
-.presentation {
-    text-align: center; /* Centre tout le texte dans la section */
-    margin-top: 20px;
-    padding: 20px;
-}
-
-.presentation h2,
-.presentation p {
-    margin-bottom: 15px;
-    font-size: 1.2rem;
-}
-
 .presentation a {
-    display: inline-block; /* S'assurer que le lien est centré en tant qu'élément en ligne */
+    display: inline-block;
     background-color: #bb86fc;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+    margin-top: 20px;
     text-align: center;
     transition: background 0.3s ease, transform 0.3s ease;
-    margin-top: 20px; /* Espacement du lien */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 .presentation a:hover {
     background-color: #985eff;
     transform: scale(1.05);
 }
-
 
 /* Contact */
 .contact-flex {
